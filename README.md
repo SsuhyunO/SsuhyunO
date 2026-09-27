@@ -8,9 +8,6 @@
 **데이터베이스 · 테스트 · 배포 · 문서화**까지 완성하는 과정을 중요하게 생각합니다.
 
 [![GitHub](https://img.shields.io/badge/GitHub-SsuhyunO-181717?style=for-the-badge&logo=github)](https://github.com/SsuhyunO)
-[![K--Market](https://img.shields.io/badge/Project-K--Market-F97316?style=for-the-badge)](https://github.com/SsuhyunO/K-Market)
-[![First--day](https://img.shields.io/badge/Project-First--day-2563EB?style=for-the-badge)](https://github.com/SsuhyunO/First-day-project)
-[![GA--TA--ESN](https://img.shields.io/badge/Project-GA--TA--ESN-16A34A?style=for-the-badge)](https://github.com/SsuhyunO/GA-TA-ESN-Model)
 
 </div>
 
@@ -26,9 +23,7 @@
 | **강점** | 기존 기능의 문제를 추적하고 실제 동작 가능한 형태로 개선 |
 | **현재 목표** | 사용자 흐름과 운영 환경을 함께 고려하는 백엔드 개발자로 성장 |
 
-컴퓨터공학 전공을 마친 뒤 실무 역량을 더 단단하게 만들기 위해 Java·Spring 기반 AI 웹 서비스 교육을 이수했습니다. 단순히 문법을 다시 공부하는 데 그치지 않고, 팀 프로젝트를 통해 요구사항 분석, API와 화면 구현, 데이터베이스 설계, AI 기능 연동과 협업 과정을 경험했습니다.
-
-> 졸업 이후의 기간을 단순한 공백으로 두지 않고, 학교에서 배운 컴퓨터공학 지식을 실제 서비스 개발 역량으로 전환하는 시간으로 활용했습니다.
+컴퓨터공학 전공 졸업 후 Java·Spring 기반 AI 웹 서비스 과정을 이수하며 웹 서비스 개발과 배포 역량을 집중적으로 보완했습니다. 팀 프로젝트를 통해 요구사항 분석, 데이터베이스 설계, AI 기능 연동 및 Git 기반 협업을 경험했습니다.
 
 ---
 
@@ -76,16 +71,14 @@
 
 <br>
 
-일반회원·판매회원·관리자의 실제 이용 흐름을 구현하고 운영 환경까지 연결한 쇼핑몰 프로젝트입니다.
+일반회원·판매회원·관리자의 이용 흐름을 운영 환경까지 연결한 쇼핑몰 프로젝트입니다.
 
 `Java 21` `Spring Boot` `Spring Security` `JPA` `MySQL` `Thymeleaf` `JavaScript`
 
-- 상품, 주문, 배송, 쿠폰, 포인트, 문의 및 관리자 운영 기능 구현
-- 회원가입·첫 구매 조건에 따른 쿠폰 발급 흐름과 알림 개선
-- 관리자 설정, 파일 업로드 경로 및 화면 오류 점검과 수정
-- Google OAuth 연동 및 역할별 접근 제어
-- GitHub Actions, AWS Lightsail, Nginx를 이용한 배포 환경 구성
-- 로컬 프로젝트를 외부 사용자가 체험할 수 있는 서비스 형태로 전환
+- **문제:** 쿠폰 생성 이후 사용자 지급 흐름이 없고, 운영 환경에서 이미지와 관리자 설정이 정상 동작하지 않았습니다.
+- **해결:** 회원가입·첫 구매 조건에 따른 쿠폰 발급과 알림을 연결하고, 파일 경로·관리자 설정·화면 오류를 점검했습니다.
+- **결과:** 상품·주문·배송·쿠폰·CS 흐름을 실제 사용자가 체험할 수 있도록 정리했습니다.
+- **운영:** Google OAuth, GitHub Actions, AWS Lightsail, Nginx와 서버 MySQL을 구성했습니다.
 
 ➡️ **[Repository 바로가기](https://github.com/SsuhyunO/K-Market)**
 
@@ -100,12 +93,11 @@
 
 `Java` `Spring Boot` `Spring Security` `MySQL` `PostgreSQL` `Spring AI` `OpenAI`
 
-- 개인회원·기업회원·관리자 권한과 서비스 흐름 분리
-- 채용공고, 입사지원, 이력서와 채용 관리 기능 구현
-- 자기소개서 첨삭 및 채용공고 문장 개선 기능
-- 사용자 정보와 희망 직무를 반영한 채용공고 추천
-- Git 브랜치·PR 기반 협업과 ERD·README 문서 정리
-- 원본 팀 저장소와 기여 이력을 유지하기 위해 Fork 형태로 공개
+- **담당:** 기업·관리자 채용공고 관리, 공고 검색·상세 조회, 입사지원 및 상태 관리 흐름을 구현했습니다.
+- **개선:** 지원 취소·재지원과 상태 이력, 기업별 지원자 관리, 공고 공개 조건을 정리했습니다.
+- **AI 연동:** 채용공고 문장 다듬기 기능과 공고 작성 화면의 사용성을 개선했습니다.
+- **협업:** Git 브랜치·PR 기반으로 작업하고 MySQL·PostgreSQL ERD와 README를 정리했습니다.
+- **공개 방식:** 원본 팀 저장소와 기여 이력을 유지하기 위해 Fork 형태로 공개했습니다.
 
 ➡️ **[Repository 바로가기](https://github.com/SsuhyunO/First-day-project)**
 
@@ -116,16 +108,14 @@
 
 <br>
 
-금융 시계열의 노이즈를 줄이고 기술적 지표와 ESN을 결합해 매매 신호를 생성하는 캡스톤 프로젝트입니다.
+금융 시계열의 노이즈를 줄이고 기술적 지표와 ESN을 결합해 매매 신호를 생성한 4인 캡스톤 프로젝트입니다.
 
 `Python` `pandas` `NumPy` `TA-Lib` `DEAP` `scikit-learn` `Backtesting.py`
 
-- CPM 기반 주요 추세 전환점 추출
-- GA 기반 MA·RSI·ROC 파라미터 최적화
-- Echo State Network 기반 매수·관망·매도 신호 생성
-- Train/Validation/Test 기반 Expanding Window 롤링 포워드 검증
-- pandas 자료형, multiprocessing 및 라이브러리 호환성 오류 개선
-- 빠른 검증과 전체 실험을 분리하고 폴드별 결과 저장 구조 마련
+- **구조:** CPM 변곡점과 GA로 최적화한 MA·RSI·ROC 신호를 ESN 입력으로 사용했습니다.
+- **검증:** Train/Validation/Test 기반 Expanding Window 롤링 포워드 백테스트를 적용했습니다.
+- **개선:** pandas 자료형, multiprocessing, 라이브러리 호환성과 실행 재현성 문제를 보완했습니다.
+- **결과 공개:** 빠른 검증과 전체 실험을 분리하고 폴드별 결과를 정리하고 있습니다.
 
 ➡️ **[Repository 바로가기](https://github.com/SsuhyunO/GA-TA-ESN-Model)**
 
@@ -154,7 +144,7 @@
 - OpenAI·Spring AI를 활용한 AI 기능 연동
 - Git/GitHub 기반 팀 협업과 프로젝트 문서화
 
-교육 기간에는 백엔드 구현뿐 아니라 프론트엔드 연동, 데이터베이스, 배포 환경까지 서비스의 전체 흐름을 경험했습니다. 이를 바탕으로 교육 종료 후에도 프로젝트를 다시 점검하며 기능 오류, 배포 구성과 문서를 지속적으로 개선하고 있습니다.
+교육 과정에서 백엔드 구현, 프론트엔드 연동, 데이터베이스와 배포 환경까지 서비스의 전체 흐름을 경험했습니다. 이후에도 프로젝트의 기능 오류와 배포 구성을 점검하고 문서를 보완하고 있습니다.
 
 ---
 
