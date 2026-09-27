@@ -164,7 +164,6 @@
 | Channel | Link |
 |---|---|
 | GitHub | [github.com/SsuhyunO](https://github.com/SsuhyunO) |
-| Notion | 상세 포트폴리오 정리 중 |
 
 <div align="center">
 
